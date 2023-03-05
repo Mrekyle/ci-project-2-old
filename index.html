@@ -12,10 +12,88 @@
     <title>Untitled Memory Game</title>
 </head>
 <body>
-    <h1>Memory Game Name</h1>
-    <h2>Welcome to the game <span data-type="userName">0</span></h2>
-    <h3>Game rules and instructions</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias odit in, sapiente blanditiis velit, officiis accusamus deleniti veniam totam voluptate dolores quibusdam ab labore suscipit nemo nihil porro autem?</p>
+    <div>
+        <h1 id="main-title">Memory Game Name</h1>
+    </div>
+    <div id="main-greeting" class="rules-modal">
+        <h2>Welcome to the game <span data-type="userName">0</span></h2>
+        <h3>How to play the game!</h3>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+    </div>
+    <div>
+        <ol>
+            <li><span>Username - Time</span></li>
+            <li><span>Username - Time</span></li>
+            <li><span>Username - Time</span></li>
+            <li><span>Username - Time</span></li>
+            <li><span>Username - Time</span></li>
+        </ol>
+    </div>
+    <div>
+        <h3>Enter Username:</h3>
+        <input type="text">
+    </div>
+    <div>
+        <button class="start-btn">Start Game</button>
+    </div>
+    <section>
+        <div class="ga-title">
+            <h2>Welcome to the game <span>User</span></h2>
+            <h2>You are currently playing the <span>level</span></h2>
+        </div>
+        <div class="stats">
+            <h3>Score: <span>0</span></h3>
+            <h3>Time: <span>0</span></h3>
+            <h3>Attempts: <span>0</span></h3>
+        </div>
+        <div class="game-area">
+            GAME CARD AREA
+            <div>
+                <div>
+                    <img>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            End game card Modal
+            <h3>Congratulations <span>User</span></h3>
+            <h4>You are now in <span>place</span> on the leader board</h4>
+        </div>
+        <div>
+            <ol>
+                <li><span>Username - Time</span></li>
+                <li><span>Username - Time</span></li>
+                <li><span>Username - Time</span></li>
+                <li><span>Username - Time</span></li>
+                <li><span>Username - Time</span></li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>Score: <span>score</span></li>
+                <li>Time: <span>time</span></li>
+                <li>Attempts: <span>attempts</span></li>
+            </ul>
+        </div>
+        <div>
+            <button>Reset Game</button>
+            <button>Next Level</button>
+        </div>
+    </section>
+    <div>
+        <footer>
+            <p>&copy Kyle Chart 2023 | <a href="https://github.com/Mrekyle" target="_blank" rel="link" aria-label="Kyle Chart's Github profile, opens in a new tab"><i class="fa-brands fa-github git"></i></a></p>
+        </footer>
+    </div>
     <script src="https://kit.fontawesome.com/6ab0a7bbf9.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
