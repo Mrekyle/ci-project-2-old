@@ -36,6 +36,7 @@ h3, h4, h5 {
     max-width: 55%;
 }
 
+
 /* Game Area*/
 
 .game-area {
@@ -78,5 +79,5 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    
+
 }
