@@ -49,6 +49,16 @@ h3, h4, h5 {
     margin-top: 15px;
 }
 
+.instruction {
+    font-family: 'Rubik', sans-serif;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.instruction > ol {
+    list-style: none;
+}
+
 /* Game Area*/
 
 .game-area {
